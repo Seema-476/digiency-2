@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    /* outline: 1px solid red; */
+}
+
+.container {
+    max-width: 1320px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.digiency {
+    color: var(--fc-orange);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.ency {
+    color: var(--fc-black);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.home {
+    color: var(--fc-black);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.home:hover {
+    color: var(--fc-orange);
+}
+
+.navbg {
+    box-shadow: 0px 1px 10px 0px #0000001A;
+}
+
+.padding26 {
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+/* ==========================================herosection==================================== */
+.bgcolor {
+    background-color: var(--fc-light-orange);
+}
+
+.heading1 {
+    color: var(--fc-black);
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-llg);
+    font-weight: 700;
+    line-height: 59px;
+}
+
+.digital {
+    color: var(--fc-orange);
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-llg);
+    font-weight: 700;
+    line-height: 59px;
+}
+
+.paragraph {
+    color: var(--fc-gray);
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.py11 {
+    padding-top: 11px;
+    padding-bottom: 50px;
+}
+
+.btncontact {
+    color: var(--fc-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    border: none;
+    background-color: var(--fc-orange);
+    padding: 13px 22px 12px 19px;
+    border-radius: 5px;
+    box-shadow: 4px 5px 15px 0px #FF530066;
+    transition: 200ms linear;
+}
+
+.btncontact:hover {
+    box-shadow: 5px 8px 27px 10px #FF530066;
+}
+
+.paddingy {
+    padding-top: 153px;
+    padding-bottom: 153px;
+}
+
+.svg {
+    position: absolute;
+    top: 0;
+    right: -41px;
+    transform: translateY(75%);
+    transition: all 300ms linear;
+}
+
+.icon {
+    overflow: hidden;
+}
+
+.icon:hover .svg {
+    right: 0;
+}
+
+/* ==================================about us====================================== */
+.py120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.about {
+    color: var(--fc-gray);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 25px;
+}
+
+.heading2 {
+    color: var(--fc-black);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.ideas {
+    color: var(--fc-orange);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.circlered {
+    width: 70px;
+    height: 70px;
+    background: var(--fc-orange);
+    border-radius: 50%;
+    box-shadow: 4px 5px 15px 0px #FF530066;
+}
+
+.circlegray {
+    width: 70px;
+    height: 70px;
+    background: var(--fc-gray);
+    border-radius: 50%;
+    box-shadow: 4px 5px 15px 0px #00000066;
+}
+
+.circleblue {
+    width: 70px;
+    height: 70px;
+    background: var(--fc-blue);
+    border-radius: 50%;
+    box-shadow: 4px 5px 15px 0px #00C2FF66;
+}
+
+.circleblack {
+    width: 70px;
+    height: 70px;
+    background: var(--fc-black);
+    border-radius: 50%;
+    box-shadow: 4px 5px 15px 0px #00000066;
+}
+
+.cardtext {
+    color: var(--fc-black);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 36px;
+    text-align: center;
+}
+
+.squarecard {
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    padding: 25px 33px 21px 31px;
+}
+
+.mt25 {
+    margin-top: 25px;
+}
+
+.paddingtop {
+    padding-top: 60px;
+}
+
+/* ====================================Our Expereince================================== */
+.number {
+    color: var(--fc-black);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+}
+
+.global {
+    color: var(--fc-gray);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    padding-top: 18px;
+}
+
+.cardbox {
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    background-color: var(--fc-white);
+    padding-top: 74px;
+    padding-bottom: 74px;
+}
+
+.paddingpy {
+    padding-top: 60px;
+    padding-bottom: 83px;
+}
+
+.paddingtopbottom {
+    padding-top: 83px;
+    padding-bottom: 60px;
+}
+
+/* =============================================Team Member===================================== */
+.gustavo {
+    color: var(--fc-regular-black);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+}
+
+.designer {
+    color: var(--fc-gray);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.imagecard {
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    padding-bottom: 15px;
+    overflow: hidden;
+    transition: all 200ms linear;
+
+}
+
+.imagecard:hover {
+    /* box-shadow: 10px 10px 20px 15px #0000001A; */
+}
+
+.svgbackground {
+    width: 40px;
+    height: 40px;
+    background-color: var(--fc-white);
+    transition: 200ms linear;
+    margin-bottom: 5px;
+}
+
+.svgbackground:hover {
+    background-color: var(--fc-orange);
+    box-shadow: 1px 7px 10px 0px #FF530080;
+}
+
+.svgbackground:hover svg path {
+    fill: var(--fc-white);
+}
+
+.cardabsolute {
+    position: absolute;
+    top: 0;
+    right: -40%;
+    transform: translateY(25%);
+    transition: all 300ms linear;
+}
+
+.imagecard:hover .cardabsolute {
+    right: 0;
+}
+
+.curser-pointer {
+    cursor: pointer;
+}
+
+@media(max-width:991.98px) {
+    .menulist {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        background-color: var(--fc-white);
+        top: 0;
+        right: -100%;
+        transition: all 300ms linear;
+        z-index: 1;
+    }
+
+    .menuicon {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        top: 0;
+        right: 0;
+        z-index: 2;
+    }
+
+    .menuicon>span {
+        width: 100%;
+        height: 4px;
+        background-color: red;
+    }
+
+    .menulist.show {
+        right: 0;
+    }
+
+    .overflowhidden {
+        overflow: hidden;
+    }
+}
