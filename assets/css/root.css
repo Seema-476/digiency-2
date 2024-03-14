@@ -22,9 +22,6 @@
     .heading1 {
         --fs-llg: 39px;
     }
-    .paragraph{
-        --fs-sm:16px;
-    }
 }
 
 @media(min-width:768px) {

@@ -78,7 +78,7 @@
 .paragraph {
     color: var(--fc-gray);
     font-family: 'Work Sans', sans-serif;
-    font-size: var(--fs-sm);
+    font-size: var(--fs-md);
     font-weight: 400;
     line-height: 24px;
 }
@@ -164,6 +164,7 @@
     background: var(--fc-orange);
     border-radius: 50%;
     box-shadow: 4px 5px 15px 0px #FF530066;
+    transition: 200ms linear;
 }
 
 .circlegray {
@@ -172,6 +173,7 @@
     background: var(--fc-gray);
     border-radius: 50%;
     box-shadow: 4px 5px 15px 0px #00000066;
+    transition: 200ms linear;
 }
 
 .circleblue {
@@ -180,6 +182,7 @@
     background: var(--fc-blue);
     border-radius: 50%;
     box-shadow: 4px 5px 15px 0px #00C2FF66;
+    transition: 200ms linear;
 }
 
 .circleblack {
@@ -188,6 +191,7 @@
     background: var(--fc-black);
     border-radius: 50%;
     box-shadow: 4px 5px 15px 0px #00000066;
+    transition: 200ms linear;
 }
 
 .cardtext {
@@ -203,6 +207,28 @@
 .squarecard {
     box-shadow: 0px 1px 10px 0px #0000001A;
     padding: 25px 33px 21px 31px;
+    height: 100%;
+    transition: 200ms linear;
+}
+
+.squarecard:hover {
+    box-shadow: 5px 5px 20px 7px #0000001A;
+}
+
+.squarecard:hover .circlered {
+    box-shadow: 0px 0px 20px 10px #FF530066;
+}
+
+.squarecard:hover .circlegray {
+    box-shadow: 0px 0px 20px 10px #00000066;
+}
+
+.squarecard:hover .circleblue {
+    box-shadow: 0px 0px 20px 10px #00C2FF66;
+}
+
+.squarecard:hover .circleblack {
+    box-shadow: 0px 0px 20px 10px #00000066;
 }
 
 .mt25 {
@@ -355,3 +381,5 @@
         overflow: hidden;
     }
 }
+
+@media(min-width:992px) {}
