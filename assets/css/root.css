@@ -10,15 +10,27 @@
     /* font color */
     --fc-white: #ffffff;
     --fc-regular-black: #000000;
+    --fc-primary-black: #00000066;
     --fc-black: #373737;
     --fc-light-orange: #fff7f4;
     --fc-orange: #ff5300;
     --fc-primary-orange: #0000001A;
+    --fc-secondary-orange: #FF530066;
     --fc-gray: #7b7b7b;
+    --fc-primary-gray: #00000066;
     --fc-blue: #00acff;
+    --fc-primary-blue: #00C2FF66;
 }
 
 @media(min-width:576px) {
+    .ideas {
+        --fs-lg: 31px;
+    }
+
+    .heading2 {
+        --fs-lg: 31px;
+    }
+
     .heading1 {
         --fs-llg: 39px;
     }
@@ -27,5 +39,15 @@
 @media(min-width:768px) {
     .heading1 {
         --fs-llg: 48px;
+    }
+}
+
+@media(min-width:992px) {
+    .ideas {
+        --fs-lg: 39px;
+    }
+
+    .heading2 {
+        --fs-lg: 39px;
     }
 }
