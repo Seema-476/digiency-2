@@ -129,8 +129,8 @@
 
 /* ==================================about us====================================== */
 .py120 {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .about {
@@ -343,6 +343,120 @@
     padding-bottom: 60px;
 }
 
+::-webkit-scrollbar {
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--fc-white);
+    margin-top: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--fc-gray);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--fc-orange);
+}
+
+/* =================================================our work============================================= */
+.all {
+    color: var(--fc-gray);
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-mmd);
+    font-weight: 500;
+    line-height: 25px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: 200ms linear;
+    padding-bottom: 60px;
+}
+
+.all:hover {
+    color: var(--fc-orange);
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.work {
+    color: var(--fc-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 31px;
+    padding-top: 25px;
+}
+
+.text {
+    color: var(--fc-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 18px;
+    padding-bottom: 47px;
+}
+
+.absolutecard {
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    background: #FF5300E5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 200ms linear;
+}
+
+.cardimage:hover .absolutecard {
+    opacity: 1;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+
+.grid-item1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.grid-item2 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.grid-item3 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.grid-item4 {
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.grid-item5 {
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+
+.grid-item6 {
+    grid-row: 6/7;
+    grid-column: 1/2;
+}
+
+
 @media(max-width:991.98px) {
     .menulist {
         width: 100%;
@@ -387,6 +501,38 @@
     }
 }
 
+@media(min-width:576px) {
+    .py120 {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .grid-item2 {
+        grid-row: 1/3;
+        grid-column: 2/3;
+    }
+
+    .grid-item3 {
+        grid-row: 2/4;
+        grid-column: 1/2;
+    }
+
+    .grid-item4 {
+        grid-row: 3/5;
+        grid-column: 2/3;
+    }
+
+    .grid-item5 {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+
+    .grid-item6 {
+        grid-row: 5/6;
+        grid-column: 1/3;
+    }
+}
+
 @media(min-width:768px) {
     .paddingpy {
         padding-bottom: 83px;
@@ -394,5 +540,32 @@
 
     .paddingtopbottom {
         padding-top: 83px;
+    }
+}
+
+@media(min-width:992px) {
+    .grid-item2 {
+        grid-row: 1/3;
+        grid-column: 2/3;
+    }
+
+    .grid-item3 {
+        grid-row: 1/2;
+        grid-column: 3/4;
+    }
+
+    .grid-item4 {
+        grid-row: 2/4;
+        grid-column: 1/2;
+    }
+
+    .grid-item5 {
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+    .grid-item6 {
+        grid-row: 2/4;
+        grid-column: 3/4;
     }
 }
