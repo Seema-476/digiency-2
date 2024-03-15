@@ -34,11 +34,43 @@
     .heading1 {
         --fs-llg: 39px;
     }
+
+    .drop {
+        --fs-mmd: 25px;
+    }
+
+    .mail {
+        --fs-lg: 31px;
+    }
+
+    .support {
+        --fs-md: 19px;
+    }
+
+    .toll {
+        --fs-md: 19px;
+    }
+
+    .messageus {
+        --fs-lg: 31px;
+    }
+
+    .message {
+        --fs-lg: 31px;
+    }
 }
 
 @media(min-width:768px) {
     .heading1 {
         --fs-llg: 48px;
+    }
+
+    .support {
+        --fs-md: 20px;
+    }
+
+    .toll {
+        --fs-md: 20px;
     }
 }
 

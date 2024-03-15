@@ -379,8 +379,13 @@
 .all:hover {
     color: var(--fc-orange);
 }
+
 .no-scrollbar::-webkit-scrollbar {
     display: none;
+}
+
+.paddingb {
+    padding-bottom: 120px;
 }
 
 .work {
@@ -454,6 +459,197 @@
 .grid-item6 {
     grid-row: 6/7;
     grid-column: 1/2;
+}
+
+/* ===================================slider-1===================================== */
+.justin {
+    color: var(--fc-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 31px;
+}
+
+.word {
+    color: var(--fc-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.slider-text {
+    color: var(--fc-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.slider-box {
+    background-color: var(--fc-orange);
+    padding: 34px 35px 25px 64px;
+    max-width: 510px !important;
+}
+
+.pt60 {
+    padding-top: 60px;
+}
+
+.sliderimage {
+    position: absolute;
+    top: 10px;
+    left: -100px;
+}
+
+/* ============================================slider-2======================================= */
+.slidercard {
+    box-shadow: 0px 1px 10px 0px var(--fc-primary-orange);
+    padding: 25px;
+}
+
+.GraphicDesign {
+    color: var(--fc-orange);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cardcontent {
+    color: var(--fc-black);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 31px;
+    padding-top: 18px;
+    padding-bottom: 28px;
+}
+
+.Cristofer {
+    color: var(--fc-black);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.jan {
+    color: var(--fc-gray);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* ==========================================contact us====================================== */
+.contactcard {
+    box-shadow: 0px 1px 10px 0px var(--fc-primary-orange);
+    padding: 18px 24px;
+    transition: 200ms linear;
+}
+
+.contactcard:hover {
+    box-shadow: 5px 4px 20px 5px var(--fc-primary-orange);
+}
+
+.svgmail {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: var(--fc-orange);
+    box-shadow: 4px 5px 15px 0px var(--fc-secondary-orange);
+    transition: 200ms linear;
+}
+
+.contactcard:hover .svgmail {
+    box-shadow: 0px 0px 20px 10px var(--fc-secondary-orange);
+}
+
+.drop {
+    color: var(--fc-orange);
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-mmd);
+    font-weight: 500;
+    line-height: 31px;
+}
+
+.mail {
+    color: var(--fc-black);
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 600;
+    line-height: 39px;
+}
+
+.support {
+    color: var(--fc-gray);
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.toll {
+    color: var(--fc-orange);
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.padding38 {
+    padding-top: 38px;
+}
+
+.message {
+    color: var(--fc-black);
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 600;
+    line-height: 39px;
+}
+
+.messageus {
+    color: var(--fc-orange);
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 600;
+    line-height: 39px;
+}
+
+.name {
+    color: var(--fc-gray);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 1px 10px 0px var(--fc-primary-orange);
+    padding: 18px;
+}
+
+.resizernone {
+    resize: none;
+}
+
+.btnsend {
+    color: var(--fc-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 13px 25px 12px 24px;
+    border: none;
+    background-color: var(--fc-orange);
+    border-radius: 5px;
+    box-shadow: 4px 5px 15px 0px var(--fc-secondary-orange);
+    margin-top: 29px;
+    transition: 200ms linear;
+}
+
+.btnsend:hover {
+    box-shadow: 5px 8px 27px 10px var(--fc-secondary-orange);
 }
 
 
