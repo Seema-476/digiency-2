@@ -506,12 +506,17 @@
     display: none !important;
 }
 
+.slick-prev {
+    display: none !important;
+}
+
 /* ============================================slider-2======================================= */
 .slidercard {
     box-shadow: 0px 1px 10px 0px var(--fc-primary-orange);
     padding: 25px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* max-width: 570px; */
 }
 
 .GraphicDesign {
@@ -525,7 +530,7 @@
 .cardcontent {
     color: var(--fc-black);
     font-family: 'Work Sans', sans-serif;
-    font-size: var(--fs-lg);
+    font-size: var(--fs-md);
     font-weight: 500;
     line-height: 31px;
     padding-top: 18px;
@@ -535,7 +540,7 @@
 .Cristofer {
     color: var(--fc-black);
     font-family: 'Work Sans', sans-serif;
-    font-size: var(--fs-mmd);
+    font-size: var(--fs-md);
     font-weight: 500;
     line-height: 25px;
 }
@@ -543,7 +548,7 @@
 .jan {
     color: var(--fc-gray);
     font-family: 'Work Sans', sans-serif;
-    font-size: var(--fs-md);
+    font-size: var(--fs-sm);
     font-weight: 400;
     line-height: 24px;
 }
@@ -553,9 +558,6 @@
 }
 
 .slick-dots li button:before {
-    /* color: var(--fc-gray);
-    font-size: 15px;
-    transition: 300ms ease-in-out; */
     transition: 300ms ease-in-out;
     width: 15px !important;
     height: 15px !important;
@@ -566,15 +568,12 @@
 }
 
 .slick-dots li.slick-active button::before {
-    /* color: var(--fc-orange) !important;
-    z-index: 2; */
     color: transparent;
     background-color: var(--fc-black);
     border-radius: 10px;
     width: 45px !important;
     z-index: 2;
 }
-
 
 /* ==========================================contact us====================================== */
 .contactcard {
@@ -778,6 +777,12 @@
     background-color: var(--fc-orange);
 }
 
+@media(max-width:1199.98px) {
+    .sliderbox1 {
+        max-width: 570px !important;
+        min-height: 294px !important;
+    }
+}
 
 @media(max-width:991.98px) {
     .menulist {

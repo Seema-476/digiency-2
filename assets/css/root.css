@@ -58,6 +58,18 @@
     .message {
         --fs-lg: 31px;
     }
+
+    .cardcontent {
+        --fs-md: 17px;
+    }
+
+    .Cristofer {
+        --fs-md: 18px;
+    }
+
+    .jan {
+        --fs-sm: 16px;
+    }
 }
 
 @media(min-width:768px) {
@@ -72,6 +84,10 @@
     .toll {
         --fs-md: 20px;
     }
+
+    .cardcontent {
+        --fs-md: 19px;
+    }
 }
 
 @media(min-width:992px) {
@@ -81,5 +97,23 @@
 
     .heading2 {
         --fs-lg: 39px;
+    }
+
+    .cardcontent {
+        --fs-md: 19px;
+    }
+
+    .jan {
+        --fs-sm: 16px;
+    }
+
+    .Cristofer {
+        --fs-md: 20px;
+    }
+}
+
+@media(min-width:1200px) {
+    .cardcontent {
+        --fs-md: 25px;
     }
 }

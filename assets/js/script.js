@@ -53,14 +53,21 @@ $('.responsive1').slick({
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 815,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1,
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 778,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 320,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
