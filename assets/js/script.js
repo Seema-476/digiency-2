@@ -6,7 +6,7 @@ menuicon.addEventListener("click", function () {
 })
 $('.responsive').slick({
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 300,
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -38,7 +38,7 @@ $('.responsive').slick({
 });
 $('.responsive1').slick({
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 300,
     slidesToShow: 2,
     slidesToScroll: 1,

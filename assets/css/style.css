@@ -6,6 +6,7 @@
     box-sizing: border-box;
     text-decoration: none !important;
     list-style-type: none !important;
+    scroll-behavior: smooth;
     /* outline: 1px solid red; */
 }
 
@@ -278,7 +279,7 @@
 .gustavo {
     color: var(--fc-regular-black);
     font-family: 'Work Sans', sans-serif;
-    font-size: 20px;
+    font-size: var(--fs-mmd);
     font-weight: 500;
     line-height: 25px;
     text-align: center;
@@ -287,14 +288,14 @@
 .designer {
     color: var(--fc-gray);
     font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
+    font-size: var(--fs-md);
     font-weight: 400;
     line-height: 24px;
     text-align: center;
 }
 
 .imagecard {
-    box-shadow: 0px 1px 10px 0px #0000001A;
+    box-shadow: 0px 1px 10px 0px var(--fc-primary-orange);
     padding-bottom: 15px;
     overflow: hidden;
     transition: all 200ms linear;
@@ -501,16 +502,22 @@
     left: -100px;
 }
 
+.slick-next {
+    display: none !important;
+}
+
 /* ============================================slider-2======================================= */
 .slidercard {
     box-shadow: 0px 1px 10px 0px var(--fc-primary-orange);
     padding: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .GraphicDesign {
     color: var(--fc-orange);
     font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
+    font-size: var(--fs-md);
     font-weight: 400;
     line-height: 24px;
 }
@@ -518,7 +525,7 @@
 .cardcontent {
     color: var(--fc-black);
     font-family: 'Work Sans', sans-serif;
-    font-size: 25px;
+    font-size: var(--fs-lg);
     font-weight: 500;
     line-height: 31px;
     padding-top: 18px;
@@ -528,7 +535,7 @@
 .Cristofer {
     color: var(--fc-black);
     font-family: 'Work Sans', sans-serif;
-    font-size: 20px;
+    font-size: var(--fs-mmd);
     font-weight: 500;
     line-height: 25px;
 }
@@ -536,10 +543,38 @@
 .jan {
     color: var(--fc-gray);
     font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
+    font-size: var(--fs-md);
     font-weight: 400;
     line-height: 24px;
 }
+
+.slick-track {
+    margin-bottom: 55px !important;
+}
+
+.slick-dots li button:before {
+    /* color: var(--fc-gray);
+    font-size: 15px;
+    transition: 300ms ease-in-out; */
+    transition: 300ms ease-in-out;
+    width: 15px !important;
+    height: 15px !important;
+    content: "" !important;
+    border-radius: 50%;
+    background: var(--fc-gray);
+    opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button::before {
+    /* color: var(--fc-orange) !important;
+    z-index: 2; */
+    color: transparent;
+    background-color: var(--fc-black);
+    border-radius: 10px;
+    width: 45px !important;
+    z-index: 2;
+}
+
 
 /* ==========================================contact us====================================== */
 .contactcard {
@@ -620,7 +655,7 @@
 .name {
     color: var(--fc-gray);
     font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
+    font-size: var(--fs-md);
     font-weight: 400;
     line-height: 24px;
     outline: none;
@@ -636,7 +671,7 @@
 .btnsend {
     color: var(--fc-white);
     font-family: 'Work Sans', sans-serif;
-    font-size: 20px;
+    font-size: var(--fs-mmd);
     font-weight: 500;
     line-height: 25px;
     padding: 13px 25px 12px 24px;
@@ -660,7 +695,7 @@
 .footerlogo {
     color: var(--fc-orange);
     font-family: 'Work Sans', sans-serif;
-    font-size: 39px;
+    font-size: var(--fs-xl);
     font-weight: 600;
     line-height: 48px;
 }
@@ -668,7 +703,7 @@
 .footerency {
     color: var(--fc-white);
     font-family: 'Work Sans', sans-serif;
-    font-size: 39px;
+    font-size: var(--fs-xl);
     font-weight: 600;
     line-height: 48px;
 }
@@ -676,7 +711,7 @@
 .footercontent {
     color: var(--fc-white);
     font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
+    font-size: var(--fs-md);
     font-weight: 400;
     line-height: 24px;
     max-width: 263px;
@@ -685,7 +720,7 @@
 .company {
     color: var(--fc-white);
     font-family: 'Work Sans', sans-serif;
-    font-size: 39px;
+    font-size: var(--fs-xl);
     font-weight: 600;
     line-height: 48px;
 }
@@ -693,9 +728,54 @@
 .aboutus {
     color: var(--fc-white);
     font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
+    font-size: var(--fs-md);
     font-weight: 400;
     line-height: 24px;
+}
+
+.lorem {
+    color: var(--fc-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 263px;
+}
+
+.infoborder {
+    border: 1px solid var(--fc-orange);
+}
+
+.info {
+    color: var(--fc-gray);
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 400;
+    line-height: 24px;
+    background: none;
+    border: none;
+    padding-left: 18px;
+    outline: none;
+}
+
+.svgbg {
+    padding: 18px 29px;
+    background-color: var(--fc-orange);
+    max-width: 81px;
+}
+
+.copyright {
+    color: var(--fc-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.copyrightbg {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: var(--fc-orange);
 }
 
 
