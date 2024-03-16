@@ -60,7 +60,7 @@
     }
 
     .cardcontent {
-        --fs-md: 17px;
+        --fs-md: 20px;
     }
 
     .Cristofer {
@@ -68,7 +68,7 @@
     }
 
     .jan {
-        --fs-sm: 16px;
+        --fs-sm: 12px;
     }
 }
 
@@ -84,10 +84,6 @@
     .toll {
         --fs-md: 20px;
     }
-
-    .cardcontent {
-        --fs-md: 19px;
-    }
 }
 
 @media(min-width:992px) {
@@ -100,7 +96,7 @@
     }
 
     .cardcontent {
-        --fs-md: 19px;
+        --fs-md: 25px;
     }
 
     .jan {
@@ -109,11 +105,5 @@
 
     .Cristofer {
         --fs-md: 20px;
-    }
-}
-
-@media(min-width:1200px) {
-    .cardcontent {
-        --fs-md: 25px;
     }
 }

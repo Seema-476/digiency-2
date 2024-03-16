@@ -490,6 +490,7 @@
     background-color: var(--fc-orange);
     padding: 34px 35px 25px 64px;
     max-width: 510px !important;
+    margin-left: 36px;
 }
 
 .pt60 {
@@ -497,6 +498,12 @@
 }
 
 .sliderimage {
+    position: absolute;
+    top: 10px;
+    left: -100px;
+}
+
+.sliderimage2 {
     position: absolute;
     top: 10px;
     left: -100px;
@@ -513,10 +520,11 @@
 /* ============================================slider-2======================================= */
 .slidercard {
     box-shadow: 0px 1px 10px 0px var(--fc-primary-orange);
-    padding: 25px;
+    padding: 11px;
     margin-left: 10px;
     margin-right: 10px;
-    /* max-width: 570px; */
+    min-height: 294px;
+    height: 100%;
 }
 
 .GraphicDesign {
@@ -573,6 +581,10 @@
     border-radius: 10px;
     width: 45px !important;
     z-index: 2;
+}
+
+.slick-slide {
+    /* max-width: 570px !important; */
 }
 
 /* ==========================================contact us====================================== */
@@ -778,9 +790,13 @@
 }
 
 @media(max-width:1199.98px) {
-    .sliderbox1 {
+
+    /* .sliderbox1 {
         max-width: 570px !important;
         min-height: 294px !important;
+    } */
+    .imagewidth {
+        width: 100%;
     }
 }
 
@@ -825,6 +841,12 @@
 
     .overflowhidden {
         overflow: hidden;
+    }
+}
+
+@media(min-width:425px) {
+    .slidercard {
+        padding: 25px;
     }
 }
 

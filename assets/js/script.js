@@ -40,6 +40,7 @@ $('.responsive1').slick({
     dots: true,
     infinite: true,
     speed: 300,
+    autoplay: false,
     slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
