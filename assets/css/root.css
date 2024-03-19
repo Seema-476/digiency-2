@@ -13,6 +13,8 @@
     --fc-primary-black: #00000066;
     --fc-black: #373737;
     --fc-light-orange: #fff7f4;
+    --fc-regular-orange: #FF5300E5;
+    --fc-red: #FF530080;
     --fc-orange: #ff5300;
     --fc-primary-orange: #0000001A;
     --fc-secondary-orange: #FF530066;
@@ -23,6 +25,13 @@
 }
 
 @media(min-width:576px) {
+    .slider-text{
+        --fs-sm: 16px;
+    }
+    .justin {
+        --fs-mmd: 25px;
+    }
+
     .ideas {
         --fs-lg: 31px;
     }
